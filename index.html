@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自我介绍</title>
+    <style type="text/css">
+        * {
+            font-size: 16px;
+        }
+
+        #center {
+            position: absolute;
+            left: 30%;
+            border: 5px solid #F7A0AF;
+            top: 15%;
+        }
+
+        #left {
+            width: 350px;
+            height: 400px;
+            background-image: url("1.jpg");
+            background-size: 350px;
+            left: 12%;
+            float: left;
+        }
+
+        #right {
+            width: 300px;
+            height: 400px;
+            float: left;
+
+        }
+
+        h4 {
+            text-align: center;color:palevioletred
+        }
+
+        span {
+            font-size: 18px;
+            color: palevioletred;
+        }
+
+        .column {
+            margin-top: 25px;
+            margin-left: 15px;
+        }
+
+        textarea {
+            margin-left: 60px;
+            height: 70px;
+        }
+
+        img {
+            width: 30%;
+            height: 30%;
+            position: absolute;
+            right: 10%;
+            top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="center">
+        <div id="left"></div>
+        <div id="right">
+            <h4>自我介绍</h4>
+            <div class="column"> <span>姓名：</span>程佳佳 </div>
+            <div class="column"><span>班级：</span>21级计算机科学与技术7班</div>
+            <div class="column"><span>学号：</span>21104010719</div>
+            <div class="column"><span>联系方式：</span>19960644303</div>
+            <div class="column">
+                <span>爱好：</span>
+                <input type="checkbox" checked> 摄影
+                <input type="checkbox" checked> 听音乐
+				<input type="checkbox" checked> 种花
+			</div>
+			<div class="column"><span>个性签名：</span>去做自己真正热爱的事，才能和想要的生活撞个满怀！</div>
+            
+            <!-- <p class="column"><span>简介：</span></p><textarea></textarea> -->
+        </div>
+    </div>
+
+</html>
